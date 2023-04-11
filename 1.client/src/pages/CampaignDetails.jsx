@@ -68,7 +68,7 @@ const CampaignDetails = () => {
               </div>
               <div>
                 <h4 className="font-epilogue font-semibold text-[14px] text-white break-all">{state.owner}</h4>
-                <p className="mt-[4px] font-epilogue font-normal text-[12px] text-[#808191]">10 Campaigns</p>
+                <p className="mt-[4px] font-epilogue font-normal text-[12px] text-[#808191]"> {state.pId + 1} Project</p>
               </div>
             </div>
           </div>
@@ -107,7 +107,7 @@ const CampaignDetails = () => {
             <div className="mt-[30px]">
               <input 
                 type="number"
-                placeholder="ETH 0.1"
+                placeholder="0.1 MATIC"
                 step="0.01"
                 className="w-full py-[10px] sm:px-[20px] px-[15px] outline-none border-[1px] border-[#3a3a43] bg-transparent font-epilogue text-white text-[18px] leading-[30px] placeholder:text-[#4b5264] rounded-[10px]"
                 value={amount}
@@ -115,8 +115,8 @@ const CampaignDetails = () => {
               />
 
               <div className="my-[20px] p-4 bg-[#13131a] rounded-[10px]">
-                <h4 className="font-epilogue font-semibold text-[14px] leading-[22px] text-white">Back it because you believe in it.</h4>
-                <p className="mt-[20px] font-epilogue font-normal leading-[22px] text-[#808191]">Support the project for no reward, just because it speaks to you.</p>
+                <h4 className="font-epilogue font-semibold text-[14px] leading-[22px] text-white">Invest in it because you have faith in its potential.</h4>
+                <p className="mt-[20px] font-epilogue font-normal leading-[22px] text-[#808191]">Back the project not for the sake of personal gain, but for the resonance it strikes within you.</p>
               </div>
 
               <CustomButton 
